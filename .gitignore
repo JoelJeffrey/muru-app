@@ -10,6 +10,8 @@ local_settings.py
 .settings
 .coverage
 MANIFEST
+*Icon
+ref/Icon
 .idea
 .vagrant
 celerybeat.pid

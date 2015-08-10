@@ -10,6 +10,12 @@ button {
 
 .btn {
     display: inline-block;
+    padding: 1.5em 0;
+    width: 100%;
+    background: $black;
+    color: $white;
+    font-size: 2.4em;
+    text-transform: uppercase;
 
     &:hover {}
 
@@ -21,4 +27,16 @@ button {
     &.disabled,
     &[disabled] {}
 
+    &.btn-alternative {
+        background: $darkGray;
+    }
+
+}
+.page {
+    .page-cta {
+        .btn {
+            width: 50%;
+            float: left;
+        }
+    }
 }

@@ -384,9 +384,10 @@ html {
 
 body {
   font-size: 10px;
-  font-family: sans-serif;
+  font-family: "Karla";
   line-height: 22px;
-  color: #444;
+  font-weight: 300;
+  color: #333333;
   background-color: #fff; }
 
 a {
@@ -397,7 +398,8 @@ a {
     text-decoration: underline; }
 
 p {
-  margin: 0 0 11px; }
+  margin: 0 0 11px;
+  font-size: 1.8em; }
 
 em {
   font-style: italic; }
@@ -414,10 +416,10 @@ h1, h2, h3, h4, h5, h6 {
   text-rendering: optimizelegibility; }
 
 h1 {
-  font-size: 3.6em; }
+  font-size: 4.8em; }
 
 h2 {
-  font-size: 3.0em; }
+  font-size: 3.4em; }
 
 h3 {
   font-size: 2.4em; }
@@ -434,7 +436,7 @@ h6 {
 hr {
   margin: 22px 0;
   border: 0;
-  border-top: 1px solid #444; }
+  border-top: 1px solid #000000; }
 
 img {
   max-width: 100%;
@@ -469,7 +471,46 @@ button {
   padding: 0; }
 
 .btn {
-  display: inline-block; }
+  display: inline-block;
+  padding: 1.5em 0;
+  width: 100%;
+  background: #000000;
+  color: #fff;
+  font-size: 2.4em;
+  text-transform: uppercase; }
+  .btn.btn-alternative {
+    background: #363636; }
+
+.page .page-cta .btn {
+  width: 50%;
+  float: left; }
+
+.page-home {
+  background-color: #666666; }
+
+.page-content {
+  background-color: #fff;
+  text-align: center;
+  padding: 60px 40px 100px; }
+  .page-content h1 {
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-bottom: 30px; }
+  .page-content p {
+    line-height: 1.4; }
+
+.page-nav {
+  text-align: center;
+  line-height: 0; }
+  .page-nav span {
+    border-radius: 50%;
+    display: inline-block;
+    margin: 30px 5px;
+    height: 10px;
+    width: 10px;
+    background-color: #fff; }
+    .page-nav span.active {
+      background-color: #000000; }
 
 .element3 {
   z-index: 2000; }

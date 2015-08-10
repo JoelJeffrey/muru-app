@@ -15,7 +15,10 @@ a {
 
 // Body text
 // ----------
-p { margin: 0 0 $baseLineHeight / 2; }
+p { 
+    margin: 0 0 $baseLineHeight / 2; 
+    font-size: 1.8em;
+}
 
 
 // Emphasis & Misc
@@ -34,8 +37,8 @@ h1, h2, h3, h4, h5, h6 {
     color: $headingsColor;
     text-rendering: optimizelegibility; // Fix the character spacing for headings
 }
-h1 { font-size: 3.6em; }
-h2 { font-size: 3.0em; }
+h1 { font-size: 4.8em; }
+h2 { font-size: 3.4em; }
 h3 { font-size: 2.4em; }
 h4 { font-size: 1.8em; }
 h5 { font-size: 1.4em; }

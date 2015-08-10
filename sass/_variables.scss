@@ -5,12 +5,15 @@
 // Colors
 // -------------------------
 $white:                     #fff !default;
-$black:                     #444 !default;
+$lightBlack:                #333333 !default;
+$black:                     #000000 !default;
+$gray:                      #666666 !default;
+$darkGray:                  #363636 !default;
 
 // Scaffolding
 // -------------------------
 $bodyBackground:            $white !default;
-$textColor:                 $black !default;
+$textColor:                 $lightBlack !default;
 $hrBorder:                  $black !default;
 
 // Links
@@ -24,6 +27,7 @@ $linkColorHover:            darken($linkColor, 10%) !default;
 
 $sans:                      sans-serif !default;
 $serif:                     serif !default;
+$karla:                     'Karla' !default;
 
 $thin:                      100 !default;
 $light:                     300 !default;
@@ -33,7 +37,7 @@ $bold:                      600 !default;
 $ultraBold:                 800 !default;
 
 $baseFontSize:              10px !default;
-$baseFontFamily:            $sans !default;
+$baseFontFamily:            $karla !default;
 $baseLineHeight:            22px !default;
 
 $headingsFontWeight:        $bold !default;
