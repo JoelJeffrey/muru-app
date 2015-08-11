@@ -18,7 +18,7 @@ $hrBorder:                  $black !default;
 
 // Links
 // -------------------------
-$linkColor:                 #08c !default;
+$linkColor:                 $lightBlack !default;
 $linkColorHover:            darken($linkColor, 10%) !default;
 
 
@@ -46,7 +46,7 @@ $headingsColor:             inherit !default;
 
 // Borders
 // -------------------------
-$borderColor:               $black !default;
+$borderColor:               #aaaaaa !default;
 
 // Buttons
 // -------------------------
