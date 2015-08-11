@@ -8,6 +8,7 @@ a {
     color: $linkColor;
     text-decoration: underline;
     font-size: 1.8em;
+    @extend %transition-all-fast;
     &:hover {
         color: $linkColorHover;
         text-decoration: none;

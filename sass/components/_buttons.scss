@@ -12,15 +12,23 @@ button {
     display: inline-block;
     padding: 1.5em 0;
     width: 100%;
-    background: $black;
+    background-color: $black;
     color: $white;
     font-size: 2.4em;
     text-transform: uppercase;
     margin-top: 60px;
+    text-decoration: none;
+    text-align: center;
 
-    &:hover {}
+    @extend %transition-all-fast;
 
-    &:focus {}
+    &:hover, &:focus {
+        background-color: lighten($black, 10%);
+    }
+
+    &:focus {
+
+    }
 
     &.active,
     &:active {}
@@ -30,15 +38,17 @@ button {
 
     &.btn-alternative {
         background: $darkGray;
-    }
-
-}
-.page {
-    .page-cta {
-        .btn {
-            margin: 0;
-            width: 50%;
-            float: left;
+        &:hover, &:focus {
+            background-color: darken($darkGray, 5%);
         }
     }
+    &.btn-signup, &.btn-login {
+        margin: 0;
+        width: 50%;
+        float: left;
+        &:hover {
+            color: $white;
+        }
+    }
+
 }
