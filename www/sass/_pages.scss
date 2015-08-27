@@ -1,0 +1,42 @@
+//
+// Pages
+// ---------------------------
+
+// @import "pages/*";
+@import "pages/home";
+@import "pages/tourists";
+.page-header {
+	text-align: center;
+	padding: 0 0 20px;
+	position: relative;
+	border-bottom: 2px solid $borderColor;
+	.page-header-link {
+		@extend %vertical-center;
+		left: 15px;
+		top: 35%;
+		img {
+			width: 20px;
+		}
+	}
+}
+.bottom-link {
+	margin-top: 80px;
+	display: block;
+}
+.page-content {
+	background-color: $white;
+	padding: 30px 0;
+	h1 {
+		text-transform: uppercase;
+		font-weight: 300;
+		margin-bottom: 30px;
+	}
+	p {
+		line-height: 1.4;
+	}
+	.page-content-logo {
+		padding-bottom: 30px;
+		width: 75px;
+		margin: 0 auto;
+	}
+}

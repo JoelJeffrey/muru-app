@@ -1,0 +1,12 @@
+//
+// Layouts
+// ---------------------------
+
+.app {
+	.page {
+		padding: 20px;
+		&.home {
+			background-color: $gray;
+		}
+	}
+}

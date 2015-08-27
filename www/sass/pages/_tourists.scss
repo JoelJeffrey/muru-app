@@ -1,0 +1,39 @@
+//
+// Page: Tourists
+// ---------------------------
+.tourists-main.page-content {
+	padding-bottom: 0;
+}
+.tours-list {
+    .col-xs-6 {
+        padding: 0;
+    }
+    img {
+    	height: 200px;
+    }
+    .tour-link {
+    	@extend %spread;
+    }
+}
+.tourists-main {
+	.tour {
+		text-align: center;
+		height: 190px;
+		background: url(../images/placeholder-small-black.png) center center no-repeat;
+		background-size: cover;
+		position: relative;
+	}
+	.tour:nth-child(4n+2) {
+		background-image: url(../images/placeholder-small.png);
+	}
+	.tour:nth-child(3n) {
+		background-image: url(../images/placeholder-small.png);
+	}
+	.tour-content {
+		@extend %absolute-center;
+		color: $white;
+	}
+}
+.tour-location-dropdown-wrap {
+	text-align: center;
+}
